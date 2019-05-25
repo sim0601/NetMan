@@ -1,0 +1,19 @@
+R1
+router bgp 100
+neighbor 20.20.20.1 remote-as 100
+neighbor 20.20.20.1 update-source Loopback1
+neighbor 22.22.22.1 remote-as 100
+neighbor 22.22.22.1 update-source Loopback2
+
+ip route 20.20.20.1 255.255.255.255 198.51.100.3
+ip route 22.22.22.1 255.255.255.255 198.51.100.3
+
+R2
+router bgp 100
+neighbor 10.10.10.1 remote-as 100
+neighbor 10.10.10.1 update-source Loopback1
+neighbor 11.11.11.1 remote-as 100
+neighbor 11.11.11.1 update-source Loopback2
+
+ip route 10.10.10.1 255.255.255.255 198.51.100.1
+ip route 11.11.11.1 255.255.255.255 198.51.100.1

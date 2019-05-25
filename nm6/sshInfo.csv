@@ -1,0 +1,7 @@
+device,username,password,int,ip
+R1,simran,LAB,fa0/0,198.51.100.1
+,,,int loopback 1,10.10.10.1 255.255.255.255
+,,,int loopback 2,11.11.11.1 255.255.255.255
+R2,simran,LAB,fa0/0,198.51.100.3
+,,,int loopback 1,20.20.20.1 255.255.255.255
+,,,int loopback 2,22.22.22.1 255.255.255.255

@@ -1,0 +1,566 @@
+This is bgp neighborship for R1
+BGP neighbor is 20.20.20.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 22.22.22.1
+  BGP state = Established, up for 00:27:39
+  Last read 00:00:38, last write 00:00:39, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 10.10.10.1, Local port: 179
+Foreign host: 20.20.20.1, Foreign port: 60086
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A2DC4):
+Timer          Starts    Wakeups            Next
+Retrans            30          0             0x0
+TimeWait            0          0             0x0
+AckHold            30         25             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss: 1398788926  snduna: 1398789523  sndnxt: 1398789523     sndwnd:  16327
+irs:  572762898  rcvnxt:  572763495  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 295 ms, RTTO: 338 ms, RTV: 43 ms, KRTT: 0 ms
+minRTT: 24 ms, maxRTT: 408 ms, ACK hold: 200 ms
+Flags: passive open, nagle, gen tcbs
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 60 (out of order: 0), with data: 30, total data bytes: 596
+Sent: 56 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 29, total data bytes: 596
+
+BGP neighbor is 22.22.22.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 22.22.22.1
+  BGP state = Established, up for 00:27:44
+  Last read 00:00:43, last write 00:00:44, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 11.11.11.1, Local port: 15085
+Foreign host: 22.22.22.1, Foreign port: 179
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A2DF0):
+Timer          Starts    Wakeups            Next
+Retrans            32          1             0x0
+TimeWait            0          0             0x0
+AckHold            29         21             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss: 1310179305  snduna: 1310179902  sndnxt: 1310179902     sndwnd:  16327
+irs: 2274038956  rcvnxt: 2274039553  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 294 ms, RTTO: 339 ms, RTV: 45 ms, KRTT: 0 ms
+minRTT: 36 ms, maxRTT: 300 ms, ACK hold: 200 ms
+Flags: active open, nagle
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 59 (out of order: 0), with data: 29, total data bytes: 596
+Sent: 54 (retransmit: 1, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 30, total data bytes: 596
+This is bgp neighborship for R2
+BGP neighbor is 10.10.10.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 11.11.11.1
+  BGP state = Established, up for 00:27:39
+  Last read 00:00:40, last write 00:00:39, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 20.20.20.1, Local port: 60086
+Foreign host: 10.10.10.1, Foreign port: 179
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A2748):
+Timer          Starts    Wakeups            Next
+Retrans            31          0             0x0
+TimeWait            0          0             0x0
+AckHold            29         27             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss:  572762898  snduna:  572763495  sndnxt:  572763495     sndwnd:  16327
+irs: 1398788926  rcvnxt: 1398789523  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 295 ms, RTTO: 335 ms, RTV: 40 ms, KRTT: 0 ms
+minRTT: 16 ms, maxRTT: 300 ms, ACK hold: 200 ms
+Flags: active open, nagle
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 56 (out of order: 0), with data: 29, total data bytes: 596
+Sent: 60 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 30, total data bytes: 596
+
+BGP neighbor is 11.11.11.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 11.11.11.1
+  BGP state = Established, up for 00:27:44
+  Last read 00:00:45, last write 00:00:44, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 22.22.22.1, Local port: 179
+Foreign host: 11.11.11.1, Foreign port: 15085
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A2784):
+Timer          Starts    Wakeups            Next
+Retrans            30          0             0x0
+TimeWait            0          0             0x0
+AckHold            30         27             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss: 2274038956  snduna: 2274039553  sndnxt: 2274039553     sndwnd:  16327
+irs: 1310179305  rcvnxt: 1310179902  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 298 ms, RTTO: 329 ms, RTV: 31 ms, KRTT: 0 ms
+minRTT: 20 ms, maxRTT: 400 ms, ACK hold: 200 ms
+Flags: passive open, nagle, gen tcbs
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 55 (out of order: 0), with data: 30, total data bytes: 596
+Sent: 59 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 29, total data bytes: 596
+This is bgp neighborship for R1
+BGP neighbor is 20.20.20.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 22.22.22.1
+  BGP state = Established, up for 00:27:41
+  Last read 00:00:39, last write 00:00:40, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 10.10.10.1, Local port: 179
+Foreign host: 20.20.20.1, Foreign port: 60086
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A334C):
+Timer          Starts    Wakeups            Next
+Retrans            30          0             0x0
+TimeWait            0          0             0x0
+AckHold            30         25             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss: 1398788926  snduna: 1398789523  sndnxt: 1398789523     sndwnd:  16327
+irs:  572762898  rcvnxt:  572763495  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 295 ms, RTTO: 338 ms, RTV: 43 ms, KRTT: 0 ms
+minRTT: 24 ms, maxRTT: 408 ms, ACK hold: 200 ms
+Flags: passive open, nagle, gen tcbs
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 60 (out of order: 0), with data: 30, total data bytes: 596
+Sent: 56 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 29, total data bytes: 596
+
+BGP neighbor is 22.22.22.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 22.22.22.1
+  BGP state = Established, up for 00:27:46
+  Last read 00:00:45, last write 00:00:46, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 11.11.11.1, Local port: 15085
+Foreign host: 22.22.22.1, Foreign port: 179
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A3380):
+Timer          Starts    Wakeups            Next
+Retrans            32          1             0x0
+TimeWait            0          0             0x0
+AckHold            29         21             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss: 1310179305  snduna: 1310179902  sndnxt: 1310179902     sndwnd:  16327
+irs: 2274038956  rcvnxt: 2274039553  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 294 ms, RTTO: 339 ms, RTV: 45 ms, KRTT: 0 ms
+minRTT: 36 ms, maxRTT: 300 ms, ACK hold: 200 ms
+Flags: active open, nagle
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 59 (out of order: 0), with data: 29, total data bytes: 596
+Sent: 54 (retransmit: 1, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 30, total data bytes: 596
+This is bgp neighborship for R2
+BGP neighbor is 10.10.10.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 11.11.11.1
+  BGP state = Established, up for 00:27:40
+  Last read 00:00:41, last write 00:00:40, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 20.20.20.1, Local port: 60086
+Foreign host: 10.10.10.1, Foreign port: 179
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A2C98):
+Timer          Starts    Wakeups            Next
+Retrans            31          0             0x0
+TimeWait            0          0             0x0
+AckHold            29         27             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss:  572762898  snduna:  572763495  sndnxt:  572763495     sndwnd:  16327
+irs: 1398788926  rcvnxt: 1398789523  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 295 ms, RTTO: 335 ms, RTV: 40 ms, KRTT: 0 ms
+minRTT: 16 ms, maxRTT: 300 ms, ACK hold: 200 ms
+Flags: active open, nagle
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 56 (out of order: 0), with data: 29, total data bytes: 596
+Sent: 60 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 30, total data bytes: 596
+
+BGP neighbor is 11.11.11.1,  remote AS 100, internal link
+  BGP version 4, remote router ID 11.11.11.1
+  BGP state = Established, up for 00:27:45
+  Last read 00:00:46, last write 00:00:45, hold time is 180, keepalive interval is 60 seconds
+  Neighbor capabilities:
+    Route refresh: advertised and received(old & new)
+    Address family IPv4 Unicast: advertised and received
+  Message statistics:
+    InQ depth is 0
+    OutQ depth is 0
+                         Sent       Rcvd
+    Opens:                  1          1
+    Notifications:          0          0
+    Updates:                0          0
+    Keepalives:            29         29
+    Route Refresh:          0          0
+    Total:                 30         30
+  Default minimum time between advertisement runs is 0 seconds
+
+ For address family: IPv4 Unicast
+  BGP table version 1, neighbor version 1/0
+ Output queue size : 0
+  Index 1, Offset 0, Mask 0x2
+  1 update-group member
+                                 Sent       Rcvd
+  Prefix activity:               ----       ----
+    Prefixes Current:               0          0
+    Prefixes Total:                 0          0
+    Implicit Withdraw:              0          0
+    Explicit Withdraw:              0          0
+    Used as bestpath:             n/a          0
+    Used as multipath:            n/a          0
+
+                                   Outbound    Inbound
+  Local Policy Denied Prefixes:    --------    -------
+    Total:                                0          0
+  Number of NLRIs in the update sent: max 0, min 0
+
+  Connections established 1; dropped 0
+  Last reset never
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 22.22.22.1, Local port: 179
+Foreign host: 11.11.11.1, Foreign port: 15085
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x1A2CD0):
+Timer          Starts    Wakeups            Next
+Retrans            30          0             0x0
+TimeWait            0          0             0x0
+AckHold            30         27             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+
+iss: 2274038956  snduna: 2274039553  sndnxt: 2274039553     sndwnd:  16327
+irs: 1310179305  rcvnxt: 1310179902  rcvwnd:      16327  delrcvwnd:     57
+
+SRTT: 298 ms, RTTO: 329 ms, RTV: 31 ms, KRTT: 0 ms
+minRTT: 20 ms, maxRTT: 400 ms, ACK hold: 200 ms
+Flags: passive open, nagle, gen tcbs
+IP Precedence value : 6
+
+Datagrams (max data segment is 536 bytes):
+Rcvd: 55 (out of order: 0), with data: 30, total data bytes: 596
+Sent: 59 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 29, total data bytes: 596
+
+
+------------------
+(program exited with code: 0)
+Press return to continue
+

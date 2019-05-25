@@ -1,0 +1,9 @@
+Bindings from all pools not associated with VRF:
+IP address          Client-ID/	 	    Lease expiration        Type
+		    Hardware address/
+		    User name
+10.0.0.2            0063.6973.636f.2d63.    Mar 02 2002 12:10 AM    Automatic
+                    6330.312e.3035.3664.
+                    2e30.3030.302d.4661.
+                    302f.30
+

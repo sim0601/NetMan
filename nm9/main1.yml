@@ -1,0 +1,31 @@
+---- #this is a playbook containing the variables
+routers:
+ - hostname: R1
+   loopbackName: Loopback1
+   loopbackIP: 10.0.0.1/32
+   interfaceName1: FastEthernet0/0
+   interfaceIP1: 198.51.100.3/24
+   interfaceName2: FastEthernet1/0
+   interfaceIP2: 198.51.101.3/24
+   interfaceName3: FastEthernet2/0
+   interfaceIP3: 198.51.102.3/24
+   processID: 2
+   ospfArea: 0
+ - hostname: R2
+   loopbackName: Loopback1
+   loopbackIP: 20.0.0.1/32
+   interfaceName1: FastEthernet0/0
+   interfaceIP1: 198.51.100.4/24
+   interfaceName2: FastEthernet1/0
+   interfaceIP2: 198.51.101.4/24
+   processID: 1
+   ospfArea: 0
+ - hostname: R3
+   loopbackName: Loopback1
+   loopbackIP: 30.0.0.1/32
+   interfaceName1: FastEthernet0/0
+   interfaceIP1: 198.51.100.5/24
+   interfaceName2: FastEthernet1/0
+   interfaceIP2: 198.51.102.5/24
+   processID: 3
+   ospfArea: 0

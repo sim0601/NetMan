@@ -1,0 +1,40 @@
+  1 --- #this is a playbook containing the variables
+  2 routers:
+  3  - hostname: R1
+  4    loopbackName: Loopback1
+  5    loopbackIP: 10.0.0.1/32
+  6    interfaces:
+  7      FastEthernet0/0: 198.51.100.3/24
+  8      FastEthernet1/0: 198.51.101.3/24
+  9      FastEthernet2/0: 198.51.102.3/24
+ 10    processID: 1
+ 11    ospfNetwork:
+ 12      - 10.0.0.0 0.0.0.0
+ 13      - 198.51.100.0 0.0.0.255
+ 14      - 198.51.101.0 0.0.0.255
+ 15      - 198.51.102.0 0.0.0.255
+ 16    ospfArea: 0
+ 17  - hostname: R2
+ 18    loopbackName: Loopback1
+ 19    loopbackIP: 20.0.0.1/32
+ 20    interfaces:
+ 21      FastEthernet0/0: 198.51.100.4/24
+ 22      FastEthernet1/0: 198.51.101.4/24
+ 23    processID: 2
+ 24    ospfNetwork:
+ 25      - 20.0.0.0 0.0.0.0
+ 26      - 198.51.100.0 0.0.0.255
+ 27      - 198.51.101.0 0.0.0.255
+ 28    ospfArea: 0
+ 29  - hostname: R3
+ 30    loopbackName: Loopback1
+ 31    loopbackIP: 30.0.0.1/32
+ 32    interfaces:
+ 33      FastEthernet0/0: 198.51.100.5/24
+ 34      FastEthernet1/0: 198.51.102.5/24
+ 35    processID: 3
+ 36    ospfNetwork:
+ 37      - 30.0.0.0 0.0.0.0
+ 38      - 198.51.100.0 0.0.0.255
+ 39      - 198.51.102.0 0.0.0.255
+ 40    ospfArea: 0

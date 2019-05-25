@@ -1,0 +1,23 @@
+{
+  "devices": {
+    "R1": {
+      "username": "simran",
+      "password": "LAB",
+      "interfaces": {
+        "fa0/0": "198.51.100.1",
+        "loopback1": "10.10.10.1",
+        "loopback2": "11.11.11.1"
+      }
+    },
+
+  "R2": {
+    "username": "simran",
+    "password": "LAB2",
+    "interfaces": {
+      "fa0/0": "198.51.100.3",
+      "loopback1": "11.11.11.1",
+      "loopback2": "22.22.22.1"
+    }
+  }
+}
+}
